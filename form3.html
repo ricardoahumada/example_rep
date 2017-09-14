@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<h1>More on forms</h1>
+
+	<form action="">
+		
+		<div>
+			<label for="name">Enter a name:</label><br/>
+			<input type="text" placeholder="Name" name="name" id="name" value="Ricardo"/>
+		</div>
+
+		<div>
+			<label for="hair_color">Select your hair color:</label><br>
+			<select name="hair_color" id="hair_color" multiple>
+				<option value="yellow">Yellow</option>
+				<option value="brown" selected>Brown</option>
+				<option value="black">Black</option>
+			</select>
+		</div>
+
+		<div>
+			<h2>Check your options</h2>
+			<input type="checkbox" name="devices" id="divice_1" checked> <label for="divice_1">laptop</label>
+			<input type="checkbox" name="devices" id="divice_2"> <label for="divice_2">computer</label>
+			<input type="checkbox" name="devices" id="divice_3"> <label for="divice_3">smartphone</label>
+		</div>
+
+		<div>
+			<h2>Check your eyes color</h2>
+			<input type="radio" name="eyes_color" id="eyesColor_1" checked><label for="eyesColor_1">blue</label>
+			<input type="radio" name="eyes_color" id="eyesColor_2"><label for="eyesColor_2">black</label>
+			<input type="radio" name="eyes_color" id="eyesColor_3"><label for="eyesColor_3">hazel</label>
+		</div>
+
+		<div>
+			<h2>Tell be about you:</h2>
+			<textarea name="bio" id="bio" cols="100" rows="10" placeholder="Enter your bio">This is my saved bio</textarea>
+		</div>
+
+		<button>Send</button>
+
+	</form>
+	
+</body>
+</html>
